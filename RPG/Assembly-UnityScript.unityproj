@@ -46,10 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ExitHouse.js" />
+     <Compile Include="Assets\House.js" />
      <Compile Include="Assets\LoadPredefinedLevelOverWorld.js" />
      <Compile Include="Assets\Message.js" />
      <Compile Include="Assets\Overworld Scrips\OverheadMovement.js" />
      <Compile Include="Assets\Player2DControls.js" />
+     <Compile Include="Assets\PositionCache.js" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
