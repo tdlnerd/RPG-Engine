@@ -1,14 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/House.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs">
     <Files>
-      <File FileName="Assets/House.js" Line="6" Column="4" />
-      <File FileName="Assets/Message.js" Line="1" Column="1" />
-      <File FileName="Assets/Overworld Scrips/OverheadMovement.js" Line="1" Column="1" />
-      <File FileName="Assets/LoadPredefinedLevelOverWorld.js" Line="1" Column="1" />
-      <File FileName="Assets/Player2DControls.js" Line="1" Column="1" />
-      <File FileName="Assets/ExitHouse.js" Line="1" Column="18" />
-      <File FileName="Assets/PositionCache.js" Line="1" Column="1" />
+      <File FileName="Assets/charactermanager.js" Line="7" Column="11" />
+      <File FileName="Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs" Line="9" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
