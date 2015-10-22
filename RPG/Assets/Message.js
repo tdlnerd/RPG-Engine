@@ -26,3 +26,7 @@ if (Input.GetKeyDown("down") && line < Text.Length) {
 	}
 }	
 }
+
+function Start () {
+MessageBox = GameObject.Find("MainTextBox").GetComponent(UI.Text);
+}

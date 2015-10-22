@@ -1,9 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EnemyDamage.js">
     <Files>
-      <File FileName="Assets/charactermanager.js" Line="7" Column="11" />
-      <File FileName="Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs" Line="9" Column="25" />
+      <File FileName="Assets/MapScreen.js" Line="3" Column="11" />
+      <File FileName="Assets/ExitHouse.js" Line="1" Column="1" />
+      <File FileName="Assets/LoadPredefinedLevelOverWorld.js" Line="2" Column="1" />
+      <File FileName="Assets/Message.js" Line="31" Column="66" />
+      <File FileName="Assets/EnemyDamage.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
