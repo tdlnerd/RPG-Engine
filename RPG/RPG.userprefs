@@ -1,12 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EnemyDamage.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/charactermanager.js">
     <Files>
-      <File FileName="Assets/MapScreen.js" Line="3" Column="11" />
+      <File FileName="Assets/charactermanager.js" Line="7" Column="21" />
+      <File FileName="Assets/MapScreen.js" Line="1" Column="18" />
       <File FileName="Assets/ExitHouse.js" Line="1" Column="1" />
-      <File FileName="Assets/LoadPredefinedLevelOverWorld.js" Line="2" Column="1" />
-      <File FileName="Assets/Message.js" Line="31" Column="66" />
+      <File FileName="Assets/LoadPredefinedLevelOverWorld.js" Line="1" Column="1" />
+      <File FileName="Assets/Message.js" Line="1" Column="1" />
       <File FileName="Assets/EnemyDamage.js" Line="1" Column="1" />
+      <File FileName="Assets/Damage2D.js" Line="1" Column="1" />
+      <File FileName="Assets/Check.js" Line="4" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

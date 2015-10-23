@@ -1,23 +1,14 @@
-﻿var damage : UI.Slider;
+﻿var Player : GameObject;
 function Awake () {
-DontDestroyOnLoad (gameObject);
-	if (FindObjectsOfType(GetType()).Length > 1)
-         {
-             Destroy(gameObject);
-         }
+DontDestroyOnLoad (Player);
          }
          
-function OnCollisionEnter2D (hit: Collision2D) {
-	if (hit.gameObject.tag == "Enemy") {
-	damage.value -= hit.gameObject.GetComponent(EnemyDamage).Dam;
-}
-}
 
 function Update () {
 	if (Application.loadedLevelName == "Test") {
-	gameObject.isStatic = true;
+	Player.SetActive(false);
 	}
 	else {
-	gameObject.SetActive(true);
+	Player.SetActive(true);
 	}
 }
