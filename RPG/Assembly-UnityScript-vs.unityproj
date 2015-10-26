@@ -46,19 +46,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CanvasManager.js" />
-     <Compile Include="Assets\Check.js" />
-     <Compile Include="Assets\Damage2D.js" />
-     <Compile Include="Assets\EnemyDamage.js" />
-     <Compile Include="Assets\ExitHouse.js" />
-     <Compile Include="Assets\House.js" />
-     <Compile Include="Assets\LoadPredefinedLevelOverWorld.js" />
-     <Compile Include="Assets\MapScreen.js" />
-     <Compile Include="Assets\Message.js" />
+     <Compile Include="Assets\Door.js" />
+     <Compile Include="Assets\Engine Scripts\CanvasManager.js" />
+     <Compile Include="Assets\Engine Scripts\Check.js" />
+     <Compile Include="Assets\Engine Scripts\Damage2D.js" />
+     <Compile Include="Assets\Engine Scripts\EnemyDamage.js" />
+     <Compile Include="Assets\Engine Scripts\ExitHouse.js" />
+     <Compile Include="Assets\Engine Scripts\House.js" />
+     <Compile Include="Assets\Engine Scripts\LoadPredefinedLevelOverWorld.js" />
+     <Compile Include="Assets\Engine Scripts\MapScreen.js" />
+     <Compile Include="Assets\Engine Scripts\Message.js" />
+     <Compile Include="Assets\Engine Scripts\Player2DControls.js" />
+     <Compile Include="Assets\Engine Scripts\charactermanager.js" />
      <Compile Include="Assets\Overworld Scrips\OverheadMovement.js" />
-     <Compile Include="Assets\Player2DControls.js" />
-     <Compile Include="Assets\PositionCache.js" />
-     <Compile Include="Assets\charactermanager.js" />
+     <Compile Include="Assets\Platform.js" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
