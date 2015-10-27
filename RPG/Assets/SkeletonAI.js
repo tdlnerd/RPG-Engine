@@ -4,17 +4,17 @@ var MaxBound : Vector2;
 	// Speed in units per sec.
 var speed: float;
 var Pos : Vector3;
-var Ani : SkeletonAnimationManager;
+var Anim : Animator;
 	
 	function Update () {
 		dist = Vector2.Distance(target.position, transform.position);
 		var step = speed * Time.deltaTime;
 			if (transform.position.x > MinBound.x && transform.position.x < MaxBound.x && dist < 5) {
 		transform.position = Vector3.MoveTowards(transform.position, target.position, step);
-		Ani.Walk = true;
+		Anim.SetBool("WalkCycle", true);
 		}
 			if (dist > 5) {
-			Ani.Walk = false;
+			Anim.SetBool("WalkCycle", false);
 			}
 		if (transform.position.x- target.position.x > 0) {
 		transform.rotation.y = 180;

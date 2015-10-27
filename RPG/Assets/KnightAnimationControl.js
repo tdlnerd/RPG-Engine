@@ -14,8 +14,11 @@ previous = transform.position;
 
 function OnCollisionEnter2D(hit : Collision2D) {
 Anim.SetBool("Grounded", true);
+Debug.Log("ONGROUND");
 }
 
 function OnCollisionExit2D (hit : Collision2D) {
 Anim.SetBool("Grounded", false);
+Debug.Log("OFFGROUND");
 }
+
