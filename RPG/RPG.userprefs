@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Robotics/CashSoilMobile/Assets/Scripts/RobotControls.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SkeletonAI.js">
     <Files>
-      <File FileName="../../../../Robotics/CashSoilMobile/Assets/Scripts/RobotControls.js" Line="10" Column="20" />
+      <File FileName="Assets/SkeletonAI.js" Line="14" Column="8" />
+      <File FileName="Assets/SkeletonAnimationManager.js" Line="8" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
