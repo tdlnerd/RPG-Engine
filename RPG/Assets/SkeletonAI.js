@@ -6,7 +6,9 @@ var speed: float;
 var Pos : Vector3;
 var Anim : Animator;
 var distreq : float;
-	
+	function Start () {
+	target = GameObject.FindGameObjectWithTag("Player").transform;
+	}
 	function Update () {
 		dist = Vector2.Distance(target.position, transform.position);
 		var step = speed * Time.deltaTime;

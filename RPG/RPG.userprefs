@@ -1,12 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Engine Scripts/Message.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Engine Scripts/GenLevelLoad.js">
     <Files>
-      <File FileName="Assets/Engine Scripts/Message.js" Line="29" Column="3" />
-      <File FileName="Assets/SkeletonAI.js" Line="13" Column="96" />
+      <File FileName="Assets/SkeletonAI.js" Line="10" Column="63" />
+      <File FileName="Assets/Engine Scripts/Message.js" Line="1" Column="1" />
       <File FileName="Assets/SkeletonAnimationManager.js" Line="1" Column="1" />
       <File FileName="Assets/BatAI.js" Line="1" Column="1" />
-      <File FileName="Assets/Engine Scripts/charactermanager.js" Line="12" Column="1" />
+      <File FileName="Assets/Engine Scripts/charactermanager.js" Line="1" Column="1" />
+      <File FileName="Assets/Engine Scripts/House.js" Line="1" Column="1" />
+      <File FileName="Assets/Engine Scripts/GenLevelLoad.js" Line="6" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
