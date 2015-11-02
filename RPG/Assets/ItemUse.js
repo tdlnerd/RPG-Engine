@@ -9,5 +9,8 @@ function Update () {
 		BombCount -= 1;
 		}
 	}
+	if (BombCount > 15) {
+	BombCount = 15;
+	}
 	BombCounter.text = "x " + BombCount.ToString();
 }
