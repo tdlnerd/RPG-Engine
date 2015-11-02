@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CanExplode.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Explode1.js">
     <Files>
-      <File FileName="Assets/CanExplode.js" Line="13" Column="30" />
+      <File FileName="Assets/Explode1.js" Line="2" Column="42" />
+      <File FileName="Assets/CanExplode.js" Line="2" Column="20" />
       <File FileName="Assets/Bombbox.js" Line="1" Column="1" />
       <File FileName="Assets/ItemUse.js" Line="1" Column="1" />
       <File FileName="Assets/Bomb.js" Line="1" Column="1" />
