@@ -1,6 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TriggerOpen.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Engine Scripts/LoadPredefinedLevelOverWorld.js">
     <Files>
       <File FileName="Assets/Explode1.js" Line="1" Column="1" />
       <File FileName="Assets/CanExplode.js" Line="1" Column="1" />
@@ -8,11 +8,14 @@
       <File FileName="Assets/ItemUse.js" Line="1" Column="1" />
       <File FileName="Assets/Bomb.js" Line="1" Column="1" />
       <File FileName="Assets/SkeletonAI.js" Line="1" Column="1" />
-      <File FileName="Assets/TriggerOpen.js" Line="7" Column="31" />
+      <File FileName="Assets/TriggerOpen.js" Line="1" Column="1" />
+      <File FileName="Assets/Engine Scripts/LoadPredefinedLevelOverWorld.js" Line="6" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/tanner.luce/Desktop/11th Grade/Advanced Game Design/RPG STEM/RPG/Assets/Engine Scripts/LoadPredefinedLevelOverWorld.js" line="8" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
