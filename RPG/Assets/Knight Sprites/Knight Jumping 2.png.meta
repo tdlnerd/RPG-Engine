@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 7e2834dac422a4e0f90e9ae5b7b78f3f
-timeCreated: 1446759184
+guid: 226ed998fd47c4fa3bd08198090fd89f
+timeCreated: 1446759208
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Knight Jumping_0
     21300002: Knight Jumping_1
-    21300004: Knight Jumping_2
+    21300004: Knight Jumping 1_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -52,35 +52,15 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Knight Jumping_0
+    - name: Knight Jumping 1_0
       rect:
         serializedVersion: 2
-        x: 35
+        x: 19
         y: 5
         width: 60
         height: 135
       alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Knight Jumping_1
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 5
-        width: 60
-        height: 135
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Knight Jumping_2
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 0
-        width: 113
-        height: 151
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
