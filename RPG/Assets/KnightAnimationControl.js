@@ -5,6 +5,9 @@ function Update () {
 velocity = ((transform.position.x - previous.x)) / Time.deltaTime;
 Adjust();
 Anim.SetFloat("Speed", Mathf.Abs(velocity));
+	if (Input.GetKeyDown("space")) {
+	Anim.SetBool("Grounded", false);
+	}
 }
 
 function Adjust () {
