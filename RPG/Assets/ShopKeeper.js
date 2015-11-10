@@ -5,11 +5,14 @@ var line = 0;
 var Disp = false;
 var Speech : AudioClip[];
 var Anim : Animator;
+
 function OnTriggerStay2D () {
+Anim.SetBool("Talk", true);
 Disp = true;
 }
 
 function OnTriggerExit2D () {
+Anim.SetBool("Talk", false);
 Disp = false;
 MessageBox.text = " ";
 line = 0;
