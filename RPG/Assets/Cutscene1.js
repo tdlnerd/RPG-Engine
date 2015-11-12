@@ -2,7 +2,7 @@
 var Text : String[];
 var MessageBox : UI.Text;
 var NPC : String;
-var Prop : Color32;
+var Prop : Color;
 function Start () {
 MessageBox = GameObject.Find("MainTextBox").GetComponent(UI.Text);
 yield WaitForSeconds(10);
@@ -28,6 +28,13 @@ yield WaitForSeconds(4);
 Anim.SetBool("Read", true);
 MessageBox.text = NPC + ": " + Text[7];
 yield WaitForSeconds(3);
-MessageBox.color = Prop;
-MessageBox.text = NPC + ": " + Text[8];
+MessageBox.color = Color.red;
+MessageBox.text = "Prophecy" + ": " + Text[8];
+yield WaitForSeconds(3);
+MessageBox.text = "Prophecy" + ": " + Text[9];
+yield WaitForSeconds(3);
+MessageBox.color = Color.black;
+MessageBox.text = NPC + ": " + Text[10];
+Anim.SetBool("Read", falseou);
+Anim.SetBool("Throw", true);
 }
