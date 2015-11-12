@@ -1,0 +1,33 @@
+﻿var Anim : Animator;
+var Text : String[];
+var MessageBox : UI.Text;
+var NPC : String;
+var Prop : Color32;
+function Start () {
+MessageBox = GameObject.Find("MainTextBox").GetComponent(UI.Text);
+yield WaitForSeconds(10);
+MessageBox.text = NPC + ": " + Text[0];
+Anim.SetBool("Speak", true);
+yield WaitForSeconds(2);
+Anim.SetBool("Speak", false);
+MessageBox.text = " ";
+yield WaitForSeconds(0.5);
+Anim.SetBool("Speak", true);
+MessageBox.text = NPC + ": " + Text[1];
+yield WaitForSeconds(3);
+MessageBox.text = NPC + ": " + Text[2];
+yield WaitForSeconds(4);
+MessageBox.text = NPC + ": " + Text[3];
+yield WaitForSeconds(4);
+MessageBox.text = NPC + ": " + Text[4];
+yield WaitForSeconds(4);
+MessageBox.text = NPC + ": " + Text[5];
+yield WaitForSeconds(4);
+MessageBox.text = NPC + ": " + Text[6];
+yield WaitForSeconds(4);
+Anim.SetBool("Read", true);
+MessageBox.text = NPC + ": " + Text[7];
+yield WaitForSeconds(3);
+MessageBox.color = Prop;
+MessageBox.text = NPC + ": " + Text[8];
+}
