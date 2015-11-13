@@ -11,6 +11,7 @@ if (THScene == 0) {
 
 function Run () {
 Anim.SetBool("Execute", true);
+yield WaitForSeconds(50);
 PlayerPrefs.SetFloat("THScene", 1);
 }
 

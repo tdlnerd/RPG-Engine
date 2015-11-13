@@ -4,7 +4,16 @@ var MessageBox : UI.Text;
 var NPC : String;
 var Prop : Color;
 var PropObj : GameObject;
+var PP : float;
 function Start () {
+PP = PlayerPrefs.GetFloat("THScene");
+Debug.Log(PP);
+if (PP == 0) {
+	RunText();
+	}
+}
+
+function RunText () {
 MessageBox = GameObject.Find("MainTextBox").GetComponent(UI.Text);
 yield WaitForSeconds(10);
 MessageBox.text = NPC + ": " + Text[0];
@@ -45,4 +54,6 @@ yield WaitForSeconds (1);
 Anim.SetBool("Throw", false);
 yield WaitForSeconds(2);
 MessageBox.text = NPC + ": " + Text[11];
+yield WaitForSeconds(3);
+MessageBox.text = " ";
 }
