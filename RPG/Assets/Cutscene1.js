@@ -3,6 +3,7 @@ var Text : String[];
 var MessageBox : UI.Text;
 var NPC : String;
 var Prop : Color;
+var PropObj : GameObject;
 function Start () {
 MessageBox = GameObject.Find("MainTextBox").GetComponent(UI.Text);
 yield WaitForSeconds(10);
@@ -35,6 +36,13 @@ MessageBox.text = "Prophecy" + ": " + Text[9];
 yield WaitForSeconds(3);
 MessageBox.color = Color.black;
 MessageBox.text = NPC + ": " + Text[10];
-Anim.SetBool("Read", falseou);
+var PropCloth = Instantiate(PropObj, transform.position, transform.rotation);
+PropCloth.transform.position = Vector3(-1.4, 3.25, 5);
+PropCloth.GetComponent.<Rigidbody>().AddForce(-40,200,0);
+Anim.SetBool("Read", false);
 Anim.SetBool("Throw", true);
+yield WaitForSeconds (1);
+Anim.SetBool("Throw", false);
+yield WaitForSeconds(2);
+MessageBox.text = NPC + ": " + Text[11];
 }

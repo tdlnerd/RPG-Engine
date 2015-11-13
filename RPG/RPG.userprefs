@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Cutscene1.js">
     <Files>
-      <File FileName="Assets/Cutscene1.js" Line="30" Column="25" />
+      <File FileName="Assets/Cutscene1.js" Line="47" Column="41" />
       <File FileName="Assets/Engine Scripts/Message.js" Line="1" Column="1" />
       <File FileName="Assets/ShopKeeper.js" Line="1" Column="1" />
       <File FileName="Assets/Engine Scripts/LoadPredefinedLevelOverWorld.js" Line="1" Column="1" />
