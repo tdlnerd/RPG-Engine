@@ -78,6 +78,7 @@
      <Compile Include="Assets\StartGame.js" />
      <Compile Include="Assets\TownHall1Scene.js" />
      <Compile Include="Assets\TriggerOpen.js" />
+     <Compile Include="Assets\Tunnel.js" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
